@@ -1,0 +1,68 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="utf-8">
+<title>Assessment webpage</title>
+<link rel="stylesheet" type="text/css" href="CSS/Work.css"/> 
+
+</head>
+	<h1>Connor's Work: An in memoriam</h1>
+	<p>Connor's work from year 10 photography</p>
+
+	<body>
+	<header>
+			<div></div>
+	</header>
+	
+	<aside> 
+	<ul>
+		<li class="activelink"><a href="Main.html">Home</a></li>
+		<li><a href="Photos.html">Photos</a></li>
+		<li><a href="Skills.html">Skills</a></li>
+		<li><a href="Contact.html">Contact</a></li>
+	</ul>
+	
+	</aside>
+	
+		<h1>Connor's Photos</h1>
+	<img class="mySlides" src="Pictures/1.jpg" alt="" style="width:50%">
+	<img class="mySlides" src="Pictures/2.jpg" alt="" style="width:50%">
+    <img class="mySlides" src="Pictures/3.jpg" alt="" style="width:50%">
+	<img class="mySlides" src="Pictures/5.jpg" alt="" style="width:50%">
+	<img class="mySlides" src="Pictures/6.jpg" alt="" style="width:50%">
+	<img class="mySlides" src="Pictures/7.jpg" alt="" style="width:50%">
+	<img class="mySlides" src="Pictures/9.jpg" alt="" style="width:50%">
+	<img class="mySlides" src="Pictures/10.JPG" alt="" style="width:50%">
+	<img class="mySlides" src="Pictures/11.jpg" alt="" style="width:30%">
+
+	<button class="w3-button w3-display-left" onClick="plusDivs(-1)">&#10094;</button>
+	<button class="w3-button w3-display-right" onClick="plusDivs(+1)">&#10095;</button>
+	
+	<script>var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+	showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+	var i;
+	var x = document.getElementsByClassName("mySlides");
+	if (n > x.length) {slideIndex = 1}
+	if (n < 1) {slideIndex = 1}
+	for (i = 0; i < x.length; i++){
+		x[i].style.display = "none";
+	}
+	x[slideIndex-1].style.display = "block";
+}</script>
+	<footer>
+		<p>©Haart_4, 2019</p>
+	
+	
+	
+	</footer>
+	
+	
+</body>
+</html>
