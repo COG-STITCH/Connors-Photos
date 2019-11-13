@@ -1,0 +1,103 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+body {
+
+	border: 2px solid black; 
+	padding: 25px;
+	background: url(../../WebPage/8.jpg);
+	background-repeat: no-repeat;
+	background-size: auto;
+}
+
+header {
+	display: inline-block;
+	background-color: transparent;
+	color: transparent;
+	width: 50%;
+}
+
+
+header > img {
+	padding: 20px 20px 5px 20px;
+}
+
+h1 {
+	verticle-align: top;
+	font-size: 3em;
+	margin : 20px 0 0 0;
+}
+
+.title {
+	display: inline-block;
+	verticle-align: top;
+	padding-left: 10px;
+	background-color: transparent;
+}
+
+.subtitle {
+	margin-top: 0px;
+	margin-left: 30px;
+}
+
+ul {
+	list-style-type: none;
+	background-color: transparent;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	text-align: center;
+}
+
+li {
+	background-color: transparent;
+	display: inline-block;
+	padding: 20px;
+}
+
+li {
+	background-color: transparent;
+	display: inline-block;
+	padding: 20px;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+a:hover{
+	background-color: skyblue;
+}
+
+.activelink {
+
+}
+
+.activelink > a {
+	color: black;
+}
+
+article {
+	padding: 20px;
+	font-size: 1.5em;
+}
+
+article > img {
+	float: right;
+}
+
+footer {
+	position: 0;
+	bottom: 0;
+	background-color: black;
+	color: white;
+	width: 100%;
+}
+
+footer > p {
+	padding: 10px;
+}
+
